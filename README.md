@@ -1,74 +1,103 @@
-# 📊 Retail Branding Business Performance Dashboard
+# 📊 Retail Branding Business Performance Dashboard | Power BI
 
 ## 📌 Project Overview
 
 An interactive Power BI dashboard developed to analyze the financial and operational performance of a retail branding business.
 
-The dashboard provides a consolidated view of project performance, client receivables, vendor purchases, project status, and estimated margins.
+The project demonstrates the complete data analytics workflow, from database creation and SQL analysis to data transformation, DAX calculations, KPI development, and interactive dashboard design.
+
+## 🎯 Business Objectives
+
+The dashboard was designed to provide a consolidated view of:
+
+- 💰 Financial performance
+- 📋 Project performance
+- 👥 Client receivables
+- 🛒 Vendor purchases
+- 🎯 Project status
+- 📈 Estimated project margins
+
+## 📊 Dashboard Highlights
+
+### 💵 Financial KPIs
+
+- Total Invoice Value
+- Total Amount Received
+- Outstanding Amount
+- Total Purchase Value
+- Estimated Margin
+
+### 📈 Project Analysis
+
+- Project Budget vs Invoice
+- Project-wise Estimated Margin
+- Project Status Analysis
+
+### 👥 Client & Vendor Analysis
+
+- Client Receivables Analysis
+- Vendor Purchase Analysis
+
+### 🎛️ Interactive Filters
+
+- Project Name
+- Client Name
+- Project Status
 
 ## 🛠️ Tools & Technologies
 
 - Power BI
-- SQL Server
+- MySQL
+- SQL
 - DAX
 - Power Query
 - Data Visualization
 
-## 📊 Key KPIs
+## 🗄️ SQL Analysis
 
-- 💰 Total Invoice Value – 8.04M
-- 💵 Total Amount Received – 3.07M
-- ⚠️ Outstanding Amount – 4.97M
-- 🛒 Total Purchase Value – 2.39M
-- 📈 Estimated Margin – 5.57M
+The SQL scripts used in this project are included in the repository:
 
-## 📈 Dashboard Analysis
+- `01_Create_Database.sql` – Database creation
+- `02_Create_Tables.sql` – Table structures and relationships
+- `03_Insert_Data.sql` – Sample project data
+- `04_Business_Queries.sql` – Business analysis queries
 
-### Project Budget vs Invoice
-Analyzes project-level invoice values and compares business performance across projects.
+## 🔄 Project Workflow
 
-### Client Receivables Analysis
-Highlights clients with outstanding receivables and helps identify major receivable contributors.
+MySQL Database  
+↓  
+SQL Data Preparation & Analysis  
+↓  
+Power Query  
+↓  
+DAX Calculations  
+↓  
+Power BI Dashboard  
+↓  
+Business Insights
 
-### Vendor Purchase Analysis
-Provides visibility into vendor-wise purchase values.
+## 💡 Key Insights
 
-### Project Status
-Shows the distribution of projects across:
-- Planning
-- Completed
-- In Progress
+The dashboard enables users to identify:
 
-### Project-wise Estimated Margin
-Highlights estimated margin across individual projects.
+- Overall invoice and payment performance
+- Outstanding client receivables
+- Vendor purchase distribution
+- Project status distribution
+- Differences between project budgets and invoices
+- Project-wise estimated margins
 
-## 🎯 Interactive Features
+## 📁 Project Files
 
-- Project Name slicer
-- Client Name slicer
-- Project Status slicer
-- Interactive charts
-- KPI cards
-- Cross-filtering between visuals
-
-## 🗄️ Data Source
-
-The dashboard was developed using data imported from **SQL Server**.
-
-The SQL analysis/project is available in my GitHub repository:
-
-**Retail Branding Analytics – SQL**
-
-## 📷 Dashboard Preview
-
-![Retail Branding Dashboard](Dashboard%20Preview.png)
+- 📊 Power BI dashboard (`.pbix`)
+- 🗄️ SQL database scripts (`.sql`)
+- 📄 Project documentation
+- 🖼️ Dashboard preview
 
 ## 👩‍💻 Skills Demonstrated
 
-- Business Intelligence
-- Data Analysis
-- SQL
-- Power BI Dashboard Development
-- DAX
-- Data Visualization
-- Business Performance Analysis
+SQL | Power BI | DAX | Power Query | Data Analysis | KPI Development | Data Visualization | Business Intelligence
+
+## 📬 Connect
+
+This project is part of my Data Analytics portfolio and demonstrates my practical experience in SQL, Power BI, and business performance analysis.
