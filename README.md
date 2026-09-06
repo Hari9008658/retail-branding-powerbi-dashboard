@@ -17,6 +17,10 @@ The dashboard was designed to provide a consolidated view of:
 - 🎯 Project status
 - 📈 Estimated project margins
 
+
+## 📊 Dashboard Preview
+![Retail Branding Business Performance Dashboard](Retail%20Branding%20Business%20Performance%20Dashboard%20-%20Png.PNG)
+
 ## 📊 Dashboard Highlights
 
 ### 💵 Financial KPIs
